@@ -25,11 +25,15 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^22.2.0",
+    "@angular-eslint/builder": "22.5.0",
     "@angular/cli": "^22.2.0",
     "@angular/compiler-cli": "^22.2.0",
     "@angular/language-service": "^22.2.0",
+    "@eslint/js": "^10.0.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^20.19.0",
+    "angular-eslint": "22.5.0",
+    "eslint": "^10.9.1",
     "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "~3.6.0",
     "karma": "~6.4.4",
@@ -37,7 +41,8 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "typescript-eslint": "8.69.0"
   },
   "prettier": {
     "trailingComma": "es5",
