@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 import { SettingsService } from '../../shared/services/settings.service';
 import { Settings } from '../../shared/models/settings';
 
 @Component({
-  selector: 'app-settings',
-  templateUrl: './settings.component.html',
-  styleUrls: ['./settings.component.scss']
+    selector: 'app-settings',
+    templateUrl: './settings.component.html',
+    styleUrls: ['./settings.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
+    standalone: false
 })
 export class SettingsComponent implements OnInit {
   settings: Settings;
