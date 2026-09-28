@@ -11,6 +11,8 @@ export class Story {
     time_ago: number;
     type: FeedType;
     url: string;
+    content: string;
+    text: string;
     domain: string;
     comments: Comment[];
     comments_count: number;
